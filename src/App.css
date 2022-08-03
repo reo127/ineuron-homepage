@@ -79,3 +79,53 @@ input::placeholder {
   font-weight: 600;
   cursor: pointer;
 }
+
+.hamberger {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+
+/* ========================== */
+/* ========================== */
+/*      Making Responceve    */
+/* ========================== */
+/* ========================== */
+
+
+@media (max-width: 1485px) {
+  header {
+    padding: .5rem 2rem;
+  }
+
+  .search_input {
+    width: 30rem;
+  }
+}
+
+
+
+@media (max-width: 1059px) {
+  .search_input {
+    width: 15rem;
+  }
+}
+
+@media (max-width: 778px) {
+  .search_input {
+    display: none !important;
+  }
+
+  .auth_buttons {
+    display: none !important;
+  }
+
+  .crouse_list {
+    display: none;
+  }
+
+  .hamberger {
+    display: block;
+  }
+}
