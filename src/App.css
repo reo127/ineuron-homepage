@@ -57,6 +57,13 @@ header {
   width: 50rem;
 }
 
+.search_input_mobile {
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  width: 20rem;
+}
+
 .search_input >input {
   all: unset;
   width: 100%;
@@ -75,6 +82,7 @@ input::placeholder {
 }
 
 .a_style {
+  text-decoration: none;
   color: var(--primary-color);
   font-weight: 600;
   cursor: pointer;
