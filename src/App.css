@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+:root {
+  --primary-color: #233c7b;
+  --secondary-color: #f7a654;
+  --alternate-color: #327ae7;
+  --light-color: #edecf7;
+  --text-primary-color: #858585;
+  --text-secondary-color: #5877c6;
+  --text-light-color: #fff;
+  --text-dark-color: #454545;
+  --text-darkBlue-color: #000f35;
+  --font-family: "Poppins",sans-serif;
+  --secondary-font-family: "Manrope",sans-serif;
+}
+
+/* ========================================== */
+/* ====================== Header ==================== */
+/* ========================================== */
+
+header {
+  padding: .5rem 5rem;
+}
+
+.upper_nav > img {
+  width: 12rem;
+}
+
+.btn-bg {
+  all: unset;
+  color: var(--primary-color);
+  padding: 0.5rem 2rem;
+  border-radius: 7px;
+  font-weight: 700;
+}
+
+.btn-nbg {
+  all: unset;
+  background-color: var(--primary-color);
+  color: var(--text-light-color);
+  padding: 0.5rem 2rem;
+  border-radius: 7px;
+  font-weight: 700;
+}
+
+.search_input {
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  width: 50rem;
+}
+
+.search_input >input {
+  all: unset;
+  width: 100%;
+}
+
+input::placeholder {
+  font-weight: 600;
+  color: var(--primary-color);
+
+}
+
+
+/* ======= Corusces Section ======= */
+.crouse_list > ul > ul {
+  padding-left: 0rem;
+}

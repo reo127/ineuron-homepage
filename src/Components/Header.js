@@ -1,0 +1,73 @@
+import React from 'react'
+import logo from '../images/ineuron-logo.png'
+
+const Header = () => {
+    return (
+        <>
+            <header>
+
+                {/* ==================  Upper navber ======================== */}
+                <div className="upper_nav d-flex justify-content-between align-items-center">
+                    <img src={logo} alt="Logo" className='img-fluid' />
+
+                    <div className="search_input d-flex align-items-center">
+                        <i className="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" className='mx-3 ' placeholder='Waht do you want to learn ?' />
+                    </div>
+
+                    <div className="auth_buttons">
+                        <button className="btn-bg mx-4"> Sign Up </button>
+                        <button className="btn-nbg"> Sign In </button>
+                    </div>
+                </div>
+
+
+                {/* ============== Crouces Section =========== */}
+
+
+                <div className="crouse_list mx-4 my-4">
+
+                    <ul className='d-flex justify-content-between align-items-center'>
+                        <ul>
+                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul className="dropdown-menu">
+                                <li><a className="dropdown-item" href="#">Action</a></li>
+                                <li><a className="dropdown-item" href="#">Another action</a></li>
+                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </ul>
+
+                        <li><a href="#"></a> One Neuron </li>
+                        <li><a href="#"></a> One Neuron </li>
+                        <li><a href="#"></a> One Neuron </li>
+                        <li><a href="#"></a> One Neuron </li>
+                        <li><a href="#"></a> One Neuron </li>
+                        <li><a href="#"></a> One Neuron </li>
+                        <li><a href="#"></a> One Neuron </li>
+                    </ul>
+                    {/* 
+                    <ul>
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul className="dropdown-menu">
+                            <li><a className="dropdown-item" href="#">Action</a></li>
+                            <li><a className="dropdown-item" href="#">Another action</a></li>
+                            <li><a className="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </ul> */}
+
+
+                </div>
+
+
+
+            </header>
+
+        </>
+    )
+}
+
+export default Header
