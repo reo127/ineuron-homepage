@@ -73,3 +73,9 @@ input::placeholder {
 .crouse_list > ul > ul {
   padding-left: 0rem;
 }
+
+.a_style {
+  color: var(--primary-color);
+  font-weight: 600;
+  cursor: pointer;
+}

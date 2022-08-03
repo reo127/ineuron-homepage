@@ -27,9 +27,9 @@ const Header = () => {
 
                 <div className="crouse_list mx-4 my-4">
 
-                    <ul className='d-flex justify-content-between align-items-center'>
+                    <ul className='d-flex justify-content-between align-items-center a_style'>
                         <ul>
-                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle a_style" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Dropdown
                             </a>
                             <ul className="dropdown-menu">
@@ -39,13 +39,13 @@ const Header = () => {
                             </ul>
                         </ul>
 
-                        <li><a href="#"></a> One Neuron </li>
-                        <li><a href="#"></a> One Neuron </li>
-                        <li><a href="#"></a> One Neuron </li>
-                        <li><a href="#"></a> One Neuron </li>
-                        <li><a href="#"></a> One Neuron </li>
-                        <li><a href="#"></a> One Neuron </li>
-                        <li><a href="#"></a> One Neuron </li>
+                        <li className='a_style'><a href="#"></a> One Neuron </li>
+                        <li className='a_style'><a href="#"></a> One Neuron </li>
+                        <li className='a_style'><a href="#"></a> One Neuron </li>
+                        <li className='a_style'><a href="#"></a> One Neuron </li>
+                        <li className='a_style'><a href="#"></a> One Neuron </li>
+                        <li className='a_style'><a href="#"></a> One Neuron </li>
+                        <li className='a_style'><a href="#"></a> One Neuron </li>
                     </ul>
                     {/* 
                     <ul>
