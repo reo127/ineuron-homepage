@@ -20,7 +20,7 @@ const Products = () => {
             <section className="motivation text-center my-5 product_section">
 
                 <div class="card-group d-flex justify-content-between align-items-center py-3 my-5 flex-wrap">
-                    <Card sx={{ maxWidth: 345 , marginTop:'1rem'}}>
+                    <Card sx={{ maxWidth: 345, marginTop: '1rem' }}>
                         <CardMedia
                             component="img"
                             height="140"
@@ -29,17 +29,15 @@ const Products = () => {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Lizard
+                                Job Portal
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
-                            </Typography>
+                                Use exceptional templates for a stand-out resume minus the sign up process.                            </Typography>
                         </CardContent>
                     </Card>
 
 
-                    <Card sx={{ maxWidth: 345 , marginTop:'1rem'}}>
+                    <Card sx={{ maxWidth: 345, marginTop: '1rem' }}>
                         <CardMedia
                             component="img"
                             height="140"
@@ -48,17 +46,15 @@ const Products = () => {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Lizard
+                                Job Portal
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
-                            </Typography>
+                                Use exceptional templates for a stand-out resume minus the sign up process.                            </Typography>
                         </CardContent>
                     </Card>
 
 
-                    <Card sx={{ maxWidth: 345 , marginTop:'1rem'}}>
+                    <Card sx={{ maxWidth: 345, marginTop: '1rem' }}>
                         <CardMedia
                             component="img"
                             height="140"
@@ -67,12 +63,10 @@ const Products = () => {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Lizard
+                                Job Portal
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
-                            </Typography>
+                                Use exceptional templates for a stand-out resume minus the sign up process.                            </Typography>
                         </CardContent>
                     </Card>
                 </div>
@@ -80,7 +74,7 @@ const Products = () => {
 
 
                 <div class="card-group d-flex justify-content-evenly align-items-center py-3 my-5 flex-wrap">
-                    <Card sx={{ maxWidth: 345 , marginTop:'1rem'}}>
+                    <Card sx={{ maxWidth: 345, marginTop: '1rem' }}>
                         <CardMedia
                             component="img"
                             height="140"
@@ -89,17 +83,15 @@ const Products = () => {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Lizard
+                                Job Portal
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
-                            </Typography>
+                                Use exceptional templates for a stand-out resume minus the sign up process.                            </Typography>
                         </CardContent>
                     </Card>
 
 
-                    <Card sx={{ maxWidth: 345 , marginTop:'1rem'}}>
+                    <Card sx={{ maxWidth: 345, marginTop: '1rem' }}>
                         <CardMedia
                             component="img"
                             height="140"
@@ -108,12 +100,10 @@ const Products = () => {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Lizard
+                                Job Portal
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
-                            </Typography>
+                                Use exceptional templates for a stand-out resume minus the sign up process.                            </Typography>
                         </CardContent>
                     </Card>
 
