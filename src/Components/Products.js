@@ -19,8 +19,10 @@ const Products = () => {
         <div>
             <section className="motivation text-center my-5 product_section">
 
+            <h1 className='achivers_text text-center my-5 motivation_underline mb-4'> Our Products </h1>
+
                 <div class="card-group d-flex justify-content-between align-items-center py-3 my-5 flex-wrap">
-                    <Card sx={{ maxWidth: 345, marginTop: '1rem' }}>
+                    <Card sx={{ maxWidth: 345, marginTop: '1rem', boxShadow:'none' }}>
                         <CardMedia
                             component="img"
                             height="140"
@@ -28,16 +30,16 @@ const Products = () => {
                             alt="green iguana"
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
+                            <Typography gutterBottom variant="h5" component="div" style={{fontWeight:'700', fontSize:'2rem'}}>
                                 Job Portal
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" color="text.secondary" style={{fontWeight:'500', fontSize:'1.2rem'}}>
                                 Use exceptional templates for a stand-out resume minus the sign up process.                            </Typography>
                         </CardContent>
                     </Card>
 
 
-                    <Card sx={{ maxWidth: 345, marginTop: '1rem' }}>
+                    <Card sx={{ maxWidth: 345, marginTop: '1rem', boxShadow:'none'  }}>
                         <CardMedia
                             component="img"
                             height="140"
@@ -45,16 +47,16 @@ const Products = () => {
                             alt="green iguana"
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
+                            <Typography gutterBottom variant="h5" component="div" style={{fontWeight:'700', fontSize:'2rem'}}>
                                 Job Portal
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" color="text.secondary" style={{fontWeight:'500', fontSize:'1.2rem'}}>
                                 Use exceptional templates for a stand-out resume minus the sign up process.                            </Typography>
                         </CardContent>
                     </Card>
 
 
-                    <Card sx={{ maxWidth: 345, marginTop: '1rem' }}>
+                    <Card sx={{ maxWidth: 345, marginTop: '1rem', boxShadow:'none'  }}>
                         <CardMedia
                             component="img"
                             height="140"
@@ -62,10 +64,10 @@ const Products = () => {
                             alt="green iguana"
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
+                            <Typography gutterBottom variant="h5" component="div" style={{fontWeight:'700', fontSize:'2rem'}}>
                                 Job Portal
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" color="text.secondary" style={{fontWeight:'500', fontSize:'1.2rem'}}>
                                 Use exceptional templates for a stand-out resume minus the sign up process.                            </Typography>
                         </CardContent>
                     </Card>
@@ -74,7 +76,7 @@ const Products = () => {
 
 
                 <div class="card-group d-flex justify-content-evenly align-items-center py-3 my-5 flex-wrap">
-                    <Card sx={{ maxWidth: 345, marginTop: '1rem' }}>
+                    <Card sx={{ maxWidth: 345, marginTop: '1rem', boxShadow:'none'  }}>
                         <CardMedia
                             component="img"
                             height="140"
@@ -82,16 +84,16 @@ const Products = () => {
                             alt="green iguana"
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
+                            <Typography gutterBottom variant="h5" component="div" style={{fontWeight:'700', fontSize:'2rem'}}>
                                 Job Portal
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" color="text.secondary" style={{fontWeight:'500', fontSize:'1.2rem'}}>
                                 Use exceptional templates for a stand-out resume minus the sign up process.                            </Typography>
                         </CardContent>
                     </Card>
 
 
-                    <Card sx={{ maxWidth: 345, marginTop: '1rem' }}>
+                    <Card sx={{ maxWidth: 345, marginTop: '1rem', boxShadow:'none'  }}>
                         <CardMedia
                             component="img"
                             height="140"
@@ -99,10 +101,10 @@ const Products = () => {
                             alt="green iguana"
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
+                            <Typography gutterBottom variant="h5" component="div" style={{fontWeight:'700', fontSize:'2rem'}}>
                                 Job Portal
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" color="text.secondary" style={{fontWeight:'500', fontSize:'1.2rem'}}>
                                 Use exceptional templates for a stand-out resume minus the sign up process.                            </Typography>
                         </CardContent>
                     </Card>
