@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: var(--font-family);
+  
 }
 
 :root {
@@ -169,7 +171,7 @@ input::placeholder {
 
 
 /* ========================================== */
-/* ====================== Motivation section ==================== */
+/* ================ Motivation section =============== */
 /* ========================================== */
 
 .motivation_card {
@@ -179,9 +181,11 @@ input::placeholder {
 .motivation_text > h1 {
   font-weight: 700;
   color: var(--primary-color);
+  font-size: clamp(1rem, 3vw, 2.5rem);
+  line-height: inherit;
 }
 
-.motivation_underline {
+.motivation_underline { 
   text-decoration: none;
   position: relative;
 }
@@ -214,7 +218,7 @@ input::placeholder {
   border: 2px solid #333;
   border-radius: 7px;
   margin-top: 2rem;
-  background-color: var(--secondary-color);
+  background-color: #EEF0F5;
   cursor: pointer;
   transition: .3s ease;
 }
@@ -243,6 +247,33 @@ input::placeholder {
   line-height: inherit;
 }
 
+
+/* ========================================== */
+/* ================ Adhivements section =============== */
+/* ========================================== */
+
+.achivements {
+  background-color: #EEF0F5;
+}
+
+.achivers_text {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: clamp(1rem, 3vw, 2.5rem);
+  line-height: inherit;
+}
+
+.companys > img {
+  width: 15rem;
+  cursor: pointer;
+  margin: .5rem 0rem;
+  border-radius: 10px;
+  transition: .2s ease-in-out;
+}
+
+.companys > img:hover{
+  box-shadow: 0 0 10px var(--text-darkBlue-color);
+}
 
 
 
